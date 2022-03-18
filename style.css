@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+/* BODY START */
+
+body {
+    background-color: #f4f9fd;
+    color: #304758;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* BODY END */
+
+/* HEADER START */
+
+
+header {
+    width: 96%;
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    /* border: 1px solid black; */
+}
+
+header > h2 {
+    width: 30%;
+    float: left;
+    font-size: 30px;
+}
+
+header > nav {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+ul, li {
+    list-style: none;
+    color: #304758;
+    display: inline;
+    float: left;
+    padding: 5px 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #304758;
+}
+
+header > input {
+    width: 26%;
+    float: right;
+    margin-right: 4%;
+}
+
+.head-button {
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    background-color: #304758;
+    color: white
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    header > h2 {
+        float: right;
+        width: 70%;
+        margin: 0%;
+        padding-left: 60px;
+        padding-top: 15px;
+        font-size: 40px;
+    }
+    .head-button {
+        float: left;
+        width: 20%;
+        margin: 5%;
+    }
+}
+
+
+
+
+/* HEADER END */
+
+
+
+/* SECTION 1 START */
+
+.column-1-2 {
+    width: 50%;
+    float: left;
+}
+
+.main-text {
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 110px;
+}
+
+.main-text h1 {
+    font-size: 60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.sec-1-img {
+    margin-top: 30px;
+    float: right;
+    margin-bottom: 100px;
+}
+
+.sec-1-tb {
+    margin-top: -15px;
+    width: 500px;
+}
+
+.sec-1-btn {
+    width: 200px;
+    background-color: #304758;
+    color: white;
+}
+
+.sec-1-btn, .sec-1-tb {
+    height: 30px;
+}
+
+.main-text p {
+    margin-top: 30px;
+    padding-right: 150px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .top-section {
+        width: 95%;
+        margin: 0px 0px;
+    }
+    .column-1-2 {
+        width: 100%;
+    }
+    .main-text {
+        margin-top: 10px;
+    }
+    span {
+        width: 100%;
+        float: left;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+    }
+    .main-text h1 {
+        font-size: 40px;
+        padding-right: 20px;
+    }
+    .sec-1-img {
+        margin: 0%;
+        float: right;
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+    .sec-1-btn, .sec-1-tb {
+        width: 335px;
+    }
+    .sec-1-tb {
+        margin-bottom: 5px;
+    }
+    .main-text p {
+        padding-right: 55px;
+        margin-left: 20px;
+
+    }
+}
+
+
+
+/* SECTION 1 END */
+
+/* SECTION 2 START */
+
+.feature-area {
+    width: 85%;
+    float: left;
+    margin: 0px 7.5%;
+}
+
+.column-1-4 {
+    width: 20%;
+    float: left;
+    margin: 0 2.5%;
+    padding-right: 60px;
+    margin-bottom: 80px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .column-1-4 {
+        margin-bottom: 40px;
+        width: 95%;
+    } 
+}
+
+
+/* SECTION 2 END */
+
+/* SECTION 3 START */
+
+.col-info {
+    width: 40%;
+    float: left;
+    margin-left: 9.5%;
+}
+
+.col-info h2 {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.col-info p {
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-info {
+        width: 80%;
+        margin: 0px 10%;
+    }
+    .col-info h2 {
+        font-size: 30px;
+        margin-top: 0px;
+    }
+
+    .col-info p {
+        font-size: 16px;
+    }
+}
